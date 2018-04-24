@@ -1,0 +1,18 @@
+/* font-family: 'IBM Plex Sans', sans-serif;
+font-family: 'Amatic SC', cursive;
+font-family: 'Schoolbell', cursive; */
+
+h1 {
+    font-family: 'Schoolbell', cursive;
+    font-size: 50px;
+}
+
+p {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+
+.container {
+    margin: 0 auto;
+    float: right;
+}
