@@ -83,6 +83,7 @@ var wordGuessGame = {
     // If the user has no guesses left, restart the game.
     if (this.guessesLeft === 0) {
       this.restartGame();
+      alert("You may have lost the round, but you've succeeded at something greater...");
     }
     // Otherwise...
     else {
@@ -233,9 +234,9 @@ var wordGuessGame = {
       // Update wins on the page.
       document.querySelector("#wins").innerHTML = this.wins;
 
+
       // Update the song title and band on the page.
-      document.querySelector("#image").innerHTML = this.wordsToPick[this.wordInPlay].song +
-      " By " + this.wordInPlay;
+      document.getElementById("image").innerHTML = '<img src="assets/images/base1.jpg" height="500">';
 
       // Update the image of the band on the page.
       document.querySelector("#bandDiv").innerHTML =
