@@ -48,6 +48,9 @@ var wordGuessGame = {
     },
     complicit: {
       song: "#"
+    },
+    collusion: {
+      song: "#"
     }
   },
 
