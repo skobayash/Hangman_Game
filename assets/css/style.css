@@ -1,18 +1,22 @@
-/* font-family: 'IBM Plex Sans', sans-serif;
-font-family: 'Amatic SC', cursive;
-font-family: 'Schoolbell', cursive; */
-
+#container {
+  position: absolute;
+}
 h1 {
-    font-family: 'Schoolbell', cursive;
-    font-size: 50px;
+  margin-left: 30px;
+}
+h2 {
+  font-size: 50px;
 }
 
-p {
-    font-family: 'Amatic SC', cursive;
-    font-size: 40px;
+#image {
+  float: right;
 }
 
-.container {
-    margin: 0 auto;
-    float: right;
+div {
+  text-align: center;
+}
+
+
+#landfill {
+  width: 1300px;
 }

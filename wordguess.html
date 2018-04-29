@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>My Word Guess Game</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css" integrity="sha384-9gVQ4dYFwwWSjIDZnLEWnxCjeSWFphJiwGPXr1jddIhOegiu1FwO5qRGvFXOdJZ4" crossorigin="anonymous">
+
+  </head>
+  <body>    
+
+    <div id="container">
+    
+
+      <div class="row">
+        
+        <div class="col-lg-6">
+          <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+              
+              <div id="game-section">
+                <h1>Hang the Madman</h1>
+                <p>Press any key to get started!</p>
+                <div>
+                  <h3 class="section-title">Wins</h3>
+                    <!-- The div where our wins will be shown. -->
+                  <div id="wins"></div>
+                </div>
+                <div id="current-word-section">
+                  <h3 class="section-title">Current Word</h3>
+                  <!-- The div where our current word (and guessing progress) will be shown. -->
+                  <div id="current-word"></div>
+                </div>
+                <div id="guesses-remaining-section">
+                  <h3 class="section-title">Number of Guesses Remaining</h3>
+                  <!-- The div where our remaining guesses will be shown. -->
+                  <div id="guesses-remaining"></div>
+                </div>
+                <div id="guessed-letters-section">
+                  <h3 class="section-title">Letters Already Guessed</h3>
+                  <!-- The div where our guesses letters will be shown. -->
+                  <div id="guessed-letters"></div>
+                </div>
+              </div>
+              
+            </div>
+          
+          </div>
+        </div>
+        
+        
+        <div class="col-lg-6 imageHolder">
+            <div id="image"></div>
+        </div>
+
+
+    </div>
+    
+    <div class="row footerFill">
+        <img src="assets/images/landfill.png" alt="landfill" id="landfill">
+    </div>
+
+
+
+    <!-- Linking to our JavaScript file. -->
+    <script type="text/javascript" src="assets/javascript/game.js"></script>
+  </body>
+</html>
