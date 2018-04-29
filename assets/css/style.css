@@ -1,9 +1,19 @@
 #container {
   position: absolute;
+  font-family: 'Amatic SC', cursive;
+  font-size: 50px;
+  font-weight: bold;
 }
+
+
 h1 {
   margin-left: 30px;
 }
+
+#title {
+  font-family: 'Schoolbell', cursive;
+}
+
 h2 {
   font-size: 50px;
 }
